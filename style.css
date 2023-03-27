@@ -1,0 +1,31 @@
+
+h1{
+    color: rgb(224, 84, 154);
+    text-align: center;
+ }
+
+ #left-container{
+    background-color: #eee;
+    width: 15%;
+    height: 100%;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    border: 3px;
+    border-style: dashed;
+    border-color: steelblue;
+    padding: 10px;
+ }
+
+ #right-container{
+    background-color: #eee;
+    width: 15%;
+    height: 100%;
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    border: 3px;
+    border-style: dashed;
+    border-color: crimson;
+    padding: 10px;
+ }
