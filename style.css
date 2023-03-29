@@ -4,28 +4,37 @@ h1{
     text-align: center;
  }
 
+ .container{
+   background-color: #eee;
+   width: 15%;
+   position:absolute;
+   height: 100%;
+   top: 0px;
+   border: 3px;
+   border-style: dashed;
+   border-color: crimson;
+   padding: 10px;
+ }
+
  #left-container{
-    background-color: #eee;
-    width: 15%;
-    height: 100%;
-    position:absolute;
     left: 0px;
-    top: 0px;
-    border: 3px;
-    border-style: dashed;
-    border-color: steelblue;
-    padding: 10px;
  }
 
  #right-container{
-    background-color: #eee;
-    width: 15%;
-    height: 100%;
-    position:absolute;
     right: 0px;
-    top: 0px;
-    border: 3px;
-    border-style: dashed;
-    border-color: crimson;
-    padding: 10px;
+ }
+
+ .plant-holder{
+  position: relative;
+  height: 13%;
+  left: -10px;
+  border-style: dashed;
+  border-color: steelblue;
+ }
+
+ .plant{
+   position: absolute;
+   max-width: 150%;
+   max-height: 150%;
+   z-index: 2;
  }
